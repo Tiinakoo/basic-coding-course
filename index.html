@@ -2,103 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Pokémon Search UI</title>
+    <title>Doran maailma</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
     <main>
-      <h1>Search UI For Pokémon TCG</h1>
+      <header>
+        <h1 class="title">Doran maailma</h1>
+      </header>
       <section>
-        <h2>Introduction</h2>
-        <p id="para1">
-          This Search UI will let you search for a pokémon in the free pokémon
-          trading card game (TCG) database.
-        </p>
-      </section>
-      <section>
-        <h2 class="letter-spacing form-title">Search form</h2>
-        <form>
-          <label for="search">Pokémon name:</label>
-          <input
-            type="text"
-            name="search"
-            id="search"
-            aria-describedby="search-help"
-          />
-          <span id="search-help">
-            e.g. <em>Bulbasaur</em> (Enter at least three letters)
-          </span>
-          <span id="search-error"></span>
-          <button type="submit" id="submit-search">Search</button>
-        </form>
+        <h2>Kuka minä olen?</h2>
+        <div id="introduction">
+          <p>
+            Nimeni on Dora, olen 9-vuotias sekarotuinen koira, ja asustelen
+            Vantaalla. Olen alunperin Romaniasta, mutta sain kodin Suomesta
+            v.2017.
+          </p>
+        </div>
+
+        <img
+          id="introduction-image"
+          src="https://kulkurit.fi/wp-content/uploads/2017/01/17357039_10155946905724148_387061601_o.jpg"
+          alt="Dora Romaniassa"
+        />
       </section>
 
-      <section id="static-results">
-        <h2>Static Results</h2>
-        <ul id="static-card-list" class="pokemon-cards">
-          <li>
-            <img
-              src="https://images.pokemontcg.io/ex6/55.png"
-              alt="Bulbasaur from FireRed &amp; LeafGreen"
-            />
-          </li>
-          <li>
-            <img
-              src="https://images.pokemontcg.io/ex6/55.png"
-              alt="Bulbasaur from FireRed &amp; LeafGreen"
-            />
-          </li>
-          <li>
-            <img
-              src="https://images.pokemontcg.io/ex6/55.png"
-              alt="Bulbasaur from FireRed &amp; LeafGreen"
-            />
-          </li>
-          <li>
-            <img
-              src="https://images.pokemontcg.io/ex6/55.png"
-              alt="Bulbasaur from FireRed &amp; LeafGreen"
-            />
-          </li>
-          <li>
-            <img
-              src="https://images.pokemontcg.io/ex6/55.png"
-              alt="Bulbasaur from FireRed &amp; LeafGreen"
-            />
-          </li>
-          <li>
-            <img
-              src="https://images.pokemontcg.io/ex6/55.png"
-              alt="Bulbasaur from FireRed &amp; LeafGreen"
-            />
-          </li>
-          <li>
-            <img
-              src="https://images.pokemontcg.io/ex6/55.png"
-              alt="Bulbasaur from FireRed &amp; LeafGreen"
-            />
-          </li>
-          <li>
-            <img
-              src="https://images.pokemontcg.io/ex6/55.png"
-              alt="Bulbasaur from FireRed &amp; LeafGreen"
-            />
-          </li>
+      <section>
+        <h2>Mistä minä pidän?</h2>
+        <ul>
+          <li>Ruuasta</li>
+          <li>Leikkimisestä</li>
+          <li>Torkuista</li>
         </ul>
       </section>
 
-      <section id="results">
-        <h2>Results</h2>
-        <div id="results-outcome"></div>
-        <ul id="card-list" class="pokemon-cards"></ul>
-      </section>
-
-      <section id="exercises">
-        <h2>Your exercises go here</h2>
+      <section>
+        <h2>Haluatko nähdä minusta toisen kuvan?</h2>
+        <button type="submit" id="update-image-button">Vaihda kuvaa</button>
       </section>
     </main>
     <script src="src/index.js"></script>
-    <script src="src/javascript_exercises.js"></script>
   </body>
 </html>
