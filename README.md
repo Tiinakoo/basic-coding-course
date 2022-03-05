@@ -47,4 +47,11 @@ Make the submit `<button>` bigger and make the cursor look like a hand pointer w
 
 ## JavaScript Exercises
 
-WIP
+Assignment #0:
+Update updateImage-function to use other images.
+
+Assignment #1:
+Update the function so that it [alerts](https://www.w3schools.com/jsref/met_win_alert.asp) the user when the image changes.
+
+Assignment #2:
+Add another button to the page that [redirects you to another page](https://www.w3schools.com/howto/howto_js_redirect_webpage.asp).
