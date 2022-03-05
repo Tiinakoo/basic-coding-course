@@ -55,3 +55,66 @@ Update the function so that it [alerts](https://www.w3schools.com/jsref/met_win_
 
 Assignment #2:
 Add another button to the page that [redirects you to another page](https://www.w3schools.com/howto/howto_js_redirect_webpage.asp).
+
+---
+
+# Koodauksen perusteet
+
+Täältä löytyvät materiaalit ja harjoitukset Futuricen Vamokselle järjestämään työpajaan. Materiaalit pohjautuvat Juha-Matti "Juhis" Santalan (@Hamatti) & Lucia Nazzaron (@mahdava) materiaaleihin.
+
+## HTML harjoitukset
+
+Tehdään seuraavat harjoitukset [w3schoolsin HTML oppimismateriaalien](https://www.w3schools.com/html/html_intro.asp), Googlen ja mentorisi avulla.
+
+Huom! Kaikkia tehtäviä ei ole välttämätöntä saada valmiiksi. Voit aina halutessasi palata edellisiin harjoituksiin.
+
+Tehtävä #0:
+Päivitä index.html tiedostoa niin että se kertoo sinusta, tai jostain kiinnostuksesi kohteesta. Voit lisätä uutta sisältöä käyttämällä olemassaolevia elementtejä tai luoda uusia.
+
+Tehtävä #1:
+Etsi kuva Internetistä ja lisää se sivulle käyttämällä `<img>` tagia.
+
+Tehtävä #2:
+Luo linkki `<a>` tagin avulla suosikkisivullesi, tai sivulle joka kertoo jotain sinusta, harrastuksistasi tai kiinnostuksen kohteistasi.
+
+
+## CSS harjoitukset
+
+Tehdään seuraavat harjoitukset [w3schoolsin CSS oppimismateriaalien](https://www.w3schools.com/css/css_intro.asp), Googlen ja mentorisi avulla.
+
+Huom! Kaikkia tehtäviä ei ole välttämätöntä saada valmiiksi. Voit aina halutessasi palata edellisiin harjoituksiin.
+
+Tehtävä #0:
+Muuta olemassaolevia CSS-tyylejä haluamallasi tavalla, pidä hauskaa, kokeile uusia juttuja ja pyydä apua mentoriltasi tarvittaessa!
+
+Tehtävä #1:
+Lisää tyylejä uuteen sisältöön jonka loit sivulle HTML tehtävien aikana.
+
+Voit kokeilla esimerkiksi seuraavia tyylejä:
+
+```css
+font-weight: bold;
+```
+
+```css
+background-color: red;
+```
+
+Tehtävä #2:
+Lisää jokin tyylimuutos käyttämällä eri [selektoria](https://www.w3schools.com/css/css_selectors.asp) kun aiemmin.
+
+Tehtävä #3:
+Tee `<button>` elementistä suurempi ja muuta hiiren kursorin tyypiä niin että se näyttää kädeltä kun viet hiiren painikkeen päälle.
+
+## JavaScript harjoitukset
+
+Huom! Kaikkia tehtäviä ei ole välttämätöntä saada valmiiksi. Voit aina halutessasi palata edellisiin harjoituksiin.
+
+Tehtävä #0:
+Päivitä updateImage-funktiota niin että sivulla näytetään eri kuvat.
+
+Tehtävä #1:
+Päivitä funktiota niin että se näyttää [alertin]](https://www.w3schools.com/jsref/met_win_alert.asp) (huomiolaatikon) käyttäjälle kun kuva vaihtuu.
+
+Tehtävä #2:
+Lisää sivulle toinen painike, jota klikkaamalla käyttäjä [ohjataan toiselle sivulle](https://www.w3schools.com/howto/howto_js_redirect_webpage.asp).
