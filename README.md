@@ -114,7 +114,7 @@ Tehtävä #0:
 Päivitä updateImage-funktiota niin että sivulla näytetään eri kuvat.
 
 Tehtävä #1:
-Päivitä funktiota niin että se näyttää [alertin]](https://www.w3schools.com/jsref/met_win_alert.asp) (huomiolaatikon) käyttäjälle kun kuva vaihtuu.
+Päivitä funktiota niin että se näyttää [alertin](https://www.w3schools.com/jsref/met_win_alert.asp) (huomiolaatikon) käyttäjälle kun kuva vaihtuu.
 
 Tehtävä #2:
 Lisää sivulle toinen painike, jota klikkaamalla käyttäjä [ohjataan toiselle sivulle](https://www.w3schools.com/howto/howto_js_redirect_webpage.asp).
